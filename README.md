@@ -99,3 +99,5 @@ Local GenAI prototype for voice applications
 
 ## 📸 Screenshots
 
+<img width="1901" height="353" alt="image" src="https://github.com/user-attachments/assets/5aaaa0ad-9f8d-4ae2-b91a-7aba9d0cbeb0" />
+
