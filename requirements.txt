@@ -4,3 +4,6 @@ sounddevice
 vosk
 transformers
 torch
+ollama
+python-dotenv
+sqlite3
