@@ -1,0 +1,6 @@
+streamlit
+pyttsx3
+sounddevice
+vosk
+transformers
+torch
