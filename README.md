@@ -4,35 +4,35 @@ A locally-run voice-enabled AI assistant built with the Mistral model via Ollama
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
-🧠 LLM: Mistral via Ollama
+ LLM: Mistral via Ollama
 
-🎙️ Voice Input: Vosk
+ Voice Input: Vosk
 
-🗣️ Voice Output: pyttsx3
+ Voice Output: pyttsx3
 
-💾 Memory: SQLite
+ Memory: SQLite
 
-🖥️ UI: Streamlit
+ UI: Streamlit
 
-📝 Language: Python 3.10+
-
----
-
-## 🚀 Features
-
-🔊 Offline voice interaction: listens to your speech and replies by voice
-
-🧠 Local inference with Mistral via Ollama (no internet required after setup)
-
-💬 Context-aware assistant with persistent memory (SQLite)
-
-🌐 Lightweight Streamlit UI for input/output tracking
+ Language: Python 3.10+
 
 ---
 
-## 🧠 Memory (SQLite Schema)
+## Features
+
+ Offline voice interaction: listens to your speech and replies by voice
+
+ Local inference with Mistral via Ollama (no internet required after setup)
+
+ Context-aware assistant with persistent memory (SQLite)
+
+ Lightweight Streamlit UI for input/output tracking
+
+---
+
+##  Memory (SQLite Schema)
 
 ```sql
 
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS conversations (
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Start Ollama Server (Terminal 1)
    
@@ -70,7 +70,7 @@ streamlit run main.py
 ---
 
 
-## 🔊 Voice Input (Vosk)
+##  Voice Input (Vosk)
 
 Download vosk-model-small-en-us-0.15
 
@@ -80,7 +80,7 @@ assistant.py will load the model automatically at runtime
 
 ---
 
-## 🗣️ Voice Output (pyttsx3)
+##  Voice Output (pyttsx3)
 
 Uses your system’s TTS engine
 
@@ -88,7 +88,7 @@ Works offline and cross-platform (Windows/macOS/Linux)
 
 ---
 
-## 📌 Use Cases
+##  Use Cases
 Personal AI assistant (offline-friendly)
 
 Education or productivity companion
